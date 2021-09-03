@@ -1,0 +1,41 @@
+// NAVBAR 
+.navbar {
+    background: var(--color-gradient);
+
+    .navbar-brand img {
+        transition: transform .5s;
+        width: 100px;
+        height: 80px;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    .navbar-brand h2 {
+        display: inline-block;
+        font-size: 1.5rem;
+        color: white;
+        font-style: italic;
+
+        span {
+            font-weight: 200;
+        }
+    }
+
+    .nav-item {
+        .nav-link {
+            font-weight: 300;
+            font-size: 1.15rem;
+            border-right: 2px solid var(--color-red);
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        .active {
+            text-decoration: underline;
+        }
+    }
+}

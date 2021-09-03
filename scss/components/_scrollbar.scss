@@ -1,0 +1,12 @@
+// Custom Scroll 
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background: var(--color-gray);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--color-red);
+    border-radius: 10px;
+    border-right: 2px solid var(--color-gray)
+} 

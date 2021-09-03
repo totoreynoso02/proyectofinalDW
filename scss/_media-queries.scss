@@ -1,0 +1,32 @@
+// MEDIA QUERIES 
+
+@media (max-width: 1199,98px) {
+    
+    .lead-xl {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .navbar-toggler {
+        background-color: rgba(240, 240, 240, 0.5);
+        border-radius: 5px;
+    }
+
+    .navbar-nav {
+        align-items: center;
+        
+        .nav-item {
+            .nav-link {
+                border-right: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    
+    .navbar-toggler {
+        margin: 0 auto;
+    }
+}
